@@ -1,6 +1,6 @@
 {
   "name": "@tenkeylabs/dappwright",
-  "version": "2.2.6",
+  "version": "2.3.1",
   "description": "End-to-End (E2E) testing for dApps using Playwright + MetaMask",
   "source": "src/index.ts",
   "main": "dist/index.js",
@@ -17,7 +17,7 @@
     "dist/"
   ],
   "engines": {
-    "node": "16"
+    "node": ">=16"
   },
   "scripts": {
     "prebuild": "rimraf dist",
@@ -26,7 +26,7 @@
     "lint": "eslint --color --ext .ts src/ test/",
     "lint:fix": "yarn run lint --fix",
     "test": "playwright test test/",
-    "test:ci": "playwright test --headed --timeout 120000",
+    "test:ci": "playwright test --headed --timeout 200000",
     "test:debug": "playwright test --debug --timeout 0 test/",
     "test:dapp": "node --require ts-node/register test/dapp/start.ts",
     "changeset:publish": "yarn build && changeset publish"
@@ -53,7 +53,6 @@
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.8",
     "@changesets/cli": "^2.26.0",
-    "@playwright/test": "^1.30.0",
     "@types/jest": "^29.2.4",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.1.0",
@@ -63,14 +62,13 @@
     "eslint-plugin-prettier": "^4.2.1",
     "ganache": "^7.4.3",
     "microbundle": "^0.15.1",
-    "playwright-core": "^1.27.1",
-    "playwright-test": "^8.2.0",
+    "@playwright/test": "^1.33.0",
     "prettier": "^2.7.1",
     "serve-handler": "6.1.5",
     "solc": "0.8.19",
     "ts-node": "10.9.1",
-    "typescript": "^4.7",
-    "web3": "1.8.2"
+    "typescript": "^5.0",
+    "web3": "1.9.0"
   },
   "peerDependencies": {
     "playwright-core": ">1.0"

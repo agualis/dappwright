@@ -1,5 +1,29 @@
 # Changelog
 
+## 2.3.1
+
+### Patch Changes
+
+- [#147](https://github.com/TenKeyLabs/dappwright/pull/147) [`8815d91`](https://github.com/TenKeyLabs/dappwright/commit/8815d91bf35acd96dbdf0f78e88ecc9576989649) Thanks [@dependabot](https://github.com/apps/dependabot)! - Bumps playwright to 1.33.0
+
+- [#147](https://github.com/TenKeyLabs/dappwright/pull/147) [`8815d91`](https://github.com/TenKeyLabs/dappwright/commit/8815d91bf35acd96dbdf0f78e88ecc9576989649) Thanks [@dependabot](https://github.com/apps/dependabot)! - Removes unnecessary references to playwirght in the package.json
+
+## 2.3.0
+
+### Minor Changes
+
+- [#130](https://github.com/TenKeyLabs/dappwright/pull/130) [`0d4a415`](https://github.com/TenKeyLabs/dappwright/commit/0d4a4159e79fb9ad649acc3559d78fff4d119f05) Thanks [@osis](https://github.com/osis)! - chore: bumps playwright and playwright/core to 1.32.3
+
+### Patch Changes
+
+- [#132](https://github.com/TenKeyLabs/dappwright/pull/132) [`f1e0d5f`](https://github.com/TenKeyLabs/dappwright/commit/f1e0d5fee13b0eb507ff896db3a2ec04cd578650) Thanks [@osis](https://github.com/osis)! - chore: enables support for engines > 16
+
+## 2.2.7
+
+### Patch Changes
+
+- [#114](https://github.com/TenKeyLabs/dappwright/pull/114) [`59e9889`](https://github.com/TenKeyLabs/dappwright/commit/59e9889f8aa2556da7051a7da056c22b8559d81f) Thanks [@agualis](https://github.com/agualis)! - Improved error message when connecting to github to get the extension's release
+
 ## 2.2.6
 
 ### Patch Changes
